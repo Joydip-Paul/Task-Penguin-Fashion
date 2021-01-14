@@ -129,6 +129,12 @@ body{
     padding: 20px;
     border-radius: 20px;
 }
+.best-product-box:hover{
+    background-color: #dddddd;
+    border-radius: 0;
+    cursor: pointer;
+    transition: .7s;
+}
 .best-product-box img{
     width: 80%;
     border: .5px solid #bebebe;
@@ -144,6 +150,10 @@ body{
 .middle button{
     background-color: #363958;
     color: #fff;
+}
+.middle button:hover{
+    background-color: #fff;
+    color: #363958;
 }
 .Product-title{
     font-size: 40px;
