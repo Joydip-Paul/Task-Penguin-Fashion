@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.h-100{
+    margin-top: 100px;
+}
+/* NavBar Area Start */
+.logo{
+    width: 200px;
+}
+.navbar{
+    background-color: #FFFBF0;
+}
+.navbar-toggler{
+    color: #ffffff;
+    background-color: #363958;
+}
+.navbar-nav li a{
+    color: #363958;
+    font-weight: 500;
+}
+/* NavBar Area End */
+
+/* Banner Area Start */
+.banner-area{
+    background-color: #FFFBF0;
+    padding: 50px 0;
+}
+.banner-img{
+    width: 80%;
+}
+.banner-content{
+    margin-top: 40px;
+}
+.banner-content h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    color: #363958;
+}
+.banner-content h2 span{
+    color: #FABE4C;
+}
+.theme-button{
+    padding: 10px 20px;
+    background-color: #A4BC46;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    outline: none;
+}
+/* Banner Area End  */
+
+/* Women and man Category Start */
+.product-title h3{
+    color: #363958;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.single-item{
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 1px 20px 20px #eee;
+}
+.imgbox img{
+    width: 100%;
+    padding: 50px;
+    background-color: #eee;
+    border-radius: 10px;
+    height: 300px;
+}
+.card-content h2{
+    font-size: 20px;
+    color: #363958;
+    font-weight: 500;
+}
+.card-content p{
+    font-size: 12px;
+}
+.CardFooter{
+    display: flex;
+    justify-content: space-between;
+}
+.CardFooter h2{
+    color: #FABE4C;
+}
+/* Women and man Category End */
+
+
+
+
+/* About Area Start */
+.single-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 10px;
+}
+.icon img{
+    width: 60px;
+}
+.box-content{
+    margin-left: 10px;
+}
+.box-content h2{
+    font-size: 20px;
+    color: #363958;
+}
+.box-content p{
+    font-size: 12px;
+    color: #3E3E3E;
+}
+.banner-img-2 img{
+    width: 90%;
+    margin-top: 40px;
+}
+/* About Area End */
+
+
+/* Best Product Area Start */
+.best-product-box{
+    padding: 20px;
+    border-radius: 20px;
+}
+.best-product-box img{
+    width: 80%;
+    border: .5px solid #bebebe;
+    border-radius: 20px;
+    padding: 20px;
+}
+.middle{
+    background-color: #FABE4C;
+}
+.middle img{
+    border: .5px solid #fff;
+}
+.middle button{
+    background-color: #363958;
+    color: #fff;
+}
+.Product-title{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+}
+/* Best Product Area End */
+
+
+/* Footer Area Start */
+.social-link i{
+    font-size: 20px;
+    background-color: #FABE4C;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+}
+/* Footer Area End */
